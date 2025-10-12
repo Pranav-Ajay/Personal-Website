@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bus Tracking System</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <style>
+      #map {
+        height: 500px;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>College Bus Tracking</h2>
+    <div id="map"></div>
+
+    <script>
+      let map;
+      let busMarker;
+      let busPath = [
+        { lat: 9.9718, lng: 76.2875 }, // Panampilly Nagar
+        { lat: 9.9750, lng: 76.2900 }, // intermediate
+        { lat: 10.0100, lng: 76.3050 }, // intermediate
+        { lat: 10.0275, lng: 76.3143 }  // Rajagiri School of Engineering and Technology
+      ];
+
+      let index = 0;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 14,
+          center: busPath[0],
+        });
+
+        busMarker = new google.maps.Marker({
+          position: busPath[0],
+          map: map,
+          title: "College Bus 🚌",
+        });
+
+        moveBus();
+      }
+
+      function moveBus() {
+        setInterval(() => {
+          index = (index + 1) % busPath.length;
+          busMarker.setPosition(busPath[index]);
+          map.panTo(busPath[index]);
+        }, 2000); // move every 2 seconds
+      }
+
+      window.onload = initMap;
+    </script>
+  </body>
+</html>
