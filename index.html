@@ -5,12 +5,15 @@
   </head>
   <body>
     <input type='text',id="user",placeholder="Student or bus driver">
+    <button onclick=direct()>SUBMIT</button>
     <script>
+      function direct()
+      {
       const input = document.getElementById("user").value.trim().toLowerCase();
-      if(input=='Student'):
+      if(input=='Student')
         window.location.href='student_interface.html';
       else:
-        window.location.href='driver_interface.html';
+        window.location.href='driver_interface.html';}
     </script>
   
   </body>
