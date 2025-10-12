@@ -1,20 +1,26 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>BUS</title>
   </head>
   <body>
-    Student or bus driver:<input type='text'id="user">
-    <button onclick=direct()>SUBMIT</button>
+    <h2>Login Type</h2>
+    Student or Bus Driver:
+    <input type="text" id="user" placeholder="Enter Student or Driver">
+    <button onclick="direct()">SUBMIT</button>
+
     <script>
-      function direct()
-      {
-      const input = document.getElementById("user").value.trim().toLowerCase();
-      if(input=='Student')
-        window.location.href='student_interface.html';
-      else:
-        window.location.href='driver_interface.html';}
+      function direct() {
+        const input = document.getElementById("user").value.trim().toLowerCase();
+
+        if (input === "student") {
+          window.location.href = "student_interface.html";
+        } else if (input === "driver" || input === "bus driver") {
+          window.location.href = "driver_interface.html";
+        } else {
+          alert("Please enter either 'Student' or 'Driver'");
+        }
+      }
     </script>
-  
   </body>
 </html>
