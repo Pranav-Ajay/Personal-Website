@@ -1,109 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Bus Tracking System</title>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtcwmEdn1igP4EvgHks1x1SuIFsoPzhTw"></script>
-    <style>
-      #map {
-        height: 700px;
-        width: 100%;
-      }
-    </style>
-  </head>
+  <head>
+    <title>Bus Tracking System</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtcwmEdn1igP4EvgHks1x1SuIFsoPzhTw"></script>
+    <style>
+      #map {
+        height: 500px;
+        width: 100%;
+      }
+    </style>
+  </head>
 
-  <body>
-    <h2>College Bus Tracking</h2>
-    <div id="map"></div>
+  <body>
+    <h2>College Bus Tracking</h2>
+    <div id="map"></div>
 
-    <script>
-      let map;
-      let directionsService;
-      let directionsRenderer;
-      let busMarker;
-      let routePoints = []; // To store all the detailed LatLng points for animation
-      let animationIndex = 0;
-      const ANIMATION_INTERVAL = 50; // Milliseconds for smooth movement
+    <script>
+      let map;
+      let busMarker;
+      let busPath = [
+        { lat: 9.9718, lng: 76.2875 }, // Panampilly Nagar
+        { lat: 9.9750, lng: 76.2900 }, // intermediate
+        { lat: 10.0100, lng: 76.3050 }, // intermediate
+        { lat: 10.0275, lng: 76.3143 }  // Rajagiri School of Engineering and Technology
+      ];
 
-      // Define the fixed origin and destination
-      const originLocation = { lat: 9.9718, lng: 76.2875 }; // Panampilly Nagar
-      const destinationLocation = { lat: 10.0275, lng: 76.3143 }; // RSET
+      let index = 0;
 
-      function initMap() {
-        map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 12,
-          center: originLocation,
-        });
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 14,
+          center: busPath[0],
+        });
 
-        // Initialize the Directions services
-        directionsService = new google.maps.DirectionsService();
-        directionsRenderer = new google.maps.DirectionsRenderer({ map: map });
-        
-        // Initialize the bus marker at the start
-        busMarker = new google.maps.Marker({
-          position: originLocation,
-          map: map,
-          icon: {
-            url: 'https://maps.google.com/mapfiles/kml/shapes/bus.png', // Bus icon
-            scaledSize: new google.maps.Size(40, 40)
-          },
-          title: "College Bus 🚌",
-        });
+        busMarker = new google.maps.Marker({
+          position: busPath[0],
+          map: map,
+          title: "College Bus 🚌",
+        });
 
-        // Start the route calculation
-        calculateAndDisplayRoute();
-      }
+        moveBus();
+      }
 
-      function calculateAndDisplayRoute() {
-        directionsService
-          .route({
-            origin: originLocation,
-            destination: destinationLocation,
-            travelMode: google.maps.TravelMode.DRIVING,
-          })
-          .then((response) => {
-            // 1. Display the calculated road-following route
-            directionsRenderer.setDirections(response);
-            
-            // 2. Extract the detailed path points for animation
-            const route = response.routes[0].legs[0];
-            for (let i = 0; i < route.steps.length; i++) {
-              const step = route.steps[i];
-              for (let j = 0; j < step.path.length; j++) {
-                routePoints.push(step.path[j]);
-              }
-            }
+      function moveBus() {
+        setInterval(() => {
+          index = (index + 1) % busPath.length;
+          busMarker.setPosition(busPath[index]);
+          map.panTo(busPath[index]);
+        }, 2000); // move every 2 seconds
+      }
 
-            // 3. Start the animation
-            animateBus();
-
-          })
-          .catch((e) => {
-            window.alert("Directions request failed due to " + e);
-          });
-      }
-
-      function animateBus() {
-        setInterval(() => {
-          if (animationIndex < routePoints.length) {
-            // Get the next point
-            const nextPosition = routePoints[animationIndex];
-            
-            // Move the bus marker
-            busMarker.setPosition(nextPosition);
-            
-            // Pan the map to keep the bus in view
-            map.panTo(nextPosition);
-
-            // Move to the next index
-            animationIndex++;
-          } else {
-            // Optional: Loop the animation once it reaches the end
-            animationIndex = 0;
-          }
-        }, ANIMATION_INTERVAL);
-      }
-
-      window.onload = initMap;
-    </script>
-  </body>
+      window.onload = initMap;
+    </script>
+  </body>
 </html>
