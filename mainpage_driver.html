@@ -15,9 +15,9 @@
       function direct1() {
         // Get the value of the input field
         const element = document.getElementById("inn").value;
-
-        // Redirect to Notifications.html with the input as a URL parameter
-        window.location.href = `Notifications.html?user=${encodeURIComponent(element)}`;
+        let notifications = JSON.parse(localStorage.getItem("notifications") || "[]");
+        notifications.push(element);
+        localStorage.setItem("notifications", JSON.stringify(notifications));
       }
     </script>
   </body>
