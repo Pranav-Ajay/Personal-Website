@@ -15,7 +15,7 @@
       function direct1() {
         // Get the value of the input field
         const element = document.getElementById("inn").value;
-        let notifications = JSON.parse(localStorage.getItem("notifications") || "[]");
+        let notifications = JSON.parse(localStorage.getItem("element") || "[]");
         notifications.push(element);
         localStorage.setItem("notifications", JSON.stringify(notifications));
       }
