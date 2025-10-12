@@ -6,11 +6,11 @@
   <body>
    <img src="image-removebg-preview.png">
    <div>Attendence</div>
-   <div><input type='text' id="inn" placeholder="SEND NOTIFICATION"></div>
+   <div><input type='text' id='inn' placeholder="SEND NOTIFICATION"></div>
    <button onclick="direct1()">SUBMIT</button>
     <script>
       function direct1():
-        element=document.getelementbyid("inn')
+        element=document.getelementbyid("inn');
         window.location.href = `Notifications.html?user=${encodeURIComponent(element)}`;                                  
     </script>
   </body>
