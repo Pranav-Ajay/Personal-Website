@@ -29,22 +29,20 @@
     </table>
 
     <script>
-      const table = document.getElementById('notificationTable');
+       const table = document.getElementById('notificationTable');
 
       // Load notifications from localStorage
       const notifications = JSON.parse(localStorage.getItem("notifications") || "[]");
 
-      // Fill the existing 7 rows with notifications
-      for (let i = 0; i < table.rows.length; i++) {
-        const row = table.rows[i];
-        if (row.cells[0]="") {
-          row.cells[0].innerText = notifications[i];
-        } else {
-          while(row.cells[i]="")
-            {row.cells[i++].innerText = notifications[i] ;
-             break;}
-        }
-      }
+      // Populate the table dynamically
+      notifications.forEach((msg, index) => {
+        const newRow = table.insertRow(); // create new row
+        const cell1 = newRow.insertCell(0); // serial number
+        const cell2 = newRow.insertCell(1); // message
+
+        cell1.innerText = index + 1;
+        cell2.innerText = msg;
+      })
     </script>
   </body>
 </html>
