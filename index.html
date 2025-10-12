@@ -4,9 +4,10 @@
     <title>BUS</title>
   </head>
   <body>
-    Student or bus driver:<input>
+    <input type='text',id="user",placeholder="Student or bus driver">
     <script>
-      if input='Student':
+      const input = document.getElementById("user").value.trim().toLowerCase();
+      if(input=='Student'):
         window.location.href='student_interface.html'
       else:
         window.location.href='driver_interface.html'
