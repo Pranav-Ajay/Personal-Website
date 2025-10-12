@@ -1,9 +1,48 @@
-<table>
-  <tr><td></td></tr>
-  <tr><td></td></tr>
-  <tr><td></td></tr>
-  <tr><td></td></tr>
-  <tr><td></td></tr>
-  <tr><td></td></tr>
-  <tr><td></td></tr>
-</table>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Notifications</title>
+    <style>
+      table {
+        width: 50%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+      td {
+        border: 1px solid #000;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Notifications</h2>
+
+    <table id="notificationTable">
+      <tr><td></td></tr>
+      <tr><td></td></tr>
+      <tr><td></td></tr>
+      <tr><td></td></tr>
+      <tr><td></td></tr>
+      <tr><td></td></tr>
+      <tr><td></td></tr>
+    </table>
+
+    <script>
+      const table = document.getElementById('notificationTable');
+
+      // Load notifications from localStorage
+      const notifications = JSON.parse(localStorage.getItem("notifications") || "[]");
+
+      // Fill the existing 7 rows with notifications
+      for (let i = 0; i < table.rows.length; i++) {
+        const row = table.rows[i];
+        if (notifications[i]) {
+          row.cells[0].innerText = notifications[i];
+        } else {
+          row.cells[0].innerText = ""; // empty if no notification
+        }
+      }
+    </script>
+  </body>
+</html>
