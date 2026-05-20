@@ -10,6 +10,7 @@ div{
   align-items:center;}
 
 button{
+  padding:20px;
   display:flex;
   justify-content:center;
   box-shadow:20px;
