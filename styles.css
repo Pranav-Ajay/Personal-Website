@@ -11,7 +11,7 @@ div{
 
 button{
   display:flex;
-  padding:100px 200px;
+  padding:40px 50px;
   justify-content:center;
   box-shadow:20px 30px 60px 90px;
   font:"Ariel";
