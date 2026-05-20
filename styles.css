@@ -7,12 +7,12 @@ div{
   padding:100px;
   align-items:center;
   position:fixed;
-  bottom:200px;
+  bottom:120px;
   gap:20px;}
 
 div.a{
   display:flex;
-  padding:20px;
+  padding:100px;
   align-items:center;
   position:fixed;
   bottom:0;
