@@ -5,6 +5,7 @@ body {
 div{
   display:flex;
   padding:50px;
+  bottom:50%;
   border:2px solid black;
   align-items:center;}
 
