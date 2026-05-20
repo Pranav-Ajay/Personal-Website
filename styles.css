@@ -11,14 +11,13 @@ div{
 
 button{
   display:flex;
-  padding:20px;
+  padding:20px 30px;
   display:flex;
   justify-content:center;
   box-shadow:20px;
-  width:200px;
-  height:150px;
   font:"Ariel";
 }
+
 
 button:hover{
   background-color:"C4A484";}
