@@ -6,3 +6,12 @@ div{
   display:flex;
   padding:100px;
   border:30px;}
+
+button{
+  display:flex;
+  align-items:center;
+  shadow:20px;
+}
+
+button.hover{
+  color:"C4A484";}
