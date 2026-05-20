@@ -4,7 +4,7 @@ body {
 
 div{
   display:flex;
-  padding:300px;
+  padding:200px;
   border:2px solid black;
   align-items:center;}
 
