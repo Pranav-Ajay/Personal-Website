@@ -2,7 +2,7 @@ body {
   background-color: #ADD8E6;
 }
 
-div{
+div.a{
   display:flex;
   padding:50px;
   align-items:center;
