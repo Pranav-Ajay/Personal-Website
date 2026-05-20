@@ -10,7 +10,7 @@ div{
 
 button{
   display:flex;
-  align-items:center;
+  justify-content:center;
   center:0;
   shadow:20px;
   width:200px;
