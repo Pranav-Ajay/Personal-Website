@@ -7,7 +7,7 @@ div{
   padding:100px;
   align-items:center;
   position:fixed;
-  bottom:0;
+  bottom:200px;
   gap:20px;}
 
 div.a{
@@ -15,7 +15,7 @@ div.a{
   padding:20px;
   align-items:center;
   position:fixed;
-  bottom:60px;
+  bottom:0;
   gap:20px;}
 
 button{
