@@ -18,5 +18,5 @@ button{
   font:"Ariel";
 }
 
-button.hover{
+button:hover{
   color:"C4A484";}
