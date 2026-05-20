@@ -5,7 +5,8 @@ body {
 div{
   display:flex;
   padding:100px;
-  outline:30px;}
+  border-outline:30px;
+  align-items:center;}
 
 button{
   display:flex;
