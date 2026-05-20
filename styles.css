@@ -6,6 +6,7 @@ div{
   display:flex;
   padding:110px;
   align-items:center;
+  bottom:0;
   gap:20px;}
 
 button{
