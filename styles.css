@@ -15,6 +15,7 @@ div.a{
   padding:100px;
   align-items:center;
   position:fixed;
+  center:0;
   bottom:0;
   gap:20px;}
 
