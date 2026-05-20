@@ -32,6 +32,8 @@ div.b{
   padding:100px;
   display:flex;
   align-items:center;
+  position:fixed;
+  top:0px;
 }
 
 
