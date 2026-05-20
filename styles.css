@@ -9,6 +9,7 @@ div{
   align-items:center;}
 
 button{
+  display:flex;
   padding:20px;
   display:flex;
   justify-content:center;
