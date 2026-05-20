@@ -29,6 +29,8 @@ button{
 
 img{
   display:flex;
+  position:fixed;
+  center:0;
   center:0;}
 
 
