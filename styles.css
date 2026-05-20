@@ -16,6 +16,10 @@ button{
   font:"Ariel";
 }
 
+img{
+  display:flex;
+  center:0;}
+
 
 button:hover{
   background:"brown";}
