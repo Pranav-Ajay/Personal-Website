@@ -74,18 +74,21 @@ div.g {
   flex: 1;                
   padding: 30px 25px;     
   border: 2px solid black;
+  justify-content:center;
 }
 
 div.h {
   flex: 1;               
   padding: 30px 25px;     
   border: 2px solid black;
+  justify-content:center;
 }
 
 div.i {
   flex: 1;              
   padding: 30px 25px;     
   border: 2px solid black;
+  justify-content:center;
 }
 
 div.f{
