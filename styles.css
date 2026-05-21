@@ -48,24 +48,24 @@ div.b{
   top:0;}
 
 div.g{
-  width:600px;
+  width:400px;
   border:2px solid black;
 }
 
 div.h{
-  width:600px;
+  width:400px;
   border:2px solid black;
 }
 
 div.i{
-  width:600px;
+  width:400px;
   border:2px solid black;
 }
 
 div.master{
   display:flex;
   gap:15px;
-  width:2000px;
+  width:1300px;
   max-width:3000px;
   flex-direction:row;}
 
