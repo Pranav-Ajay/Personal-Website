@@ -4,7 +4,7 @@ body {
 
 div{
   display:flex;
-  padding:100px;
+  padding:200px;
   align-items:center;
   position:fixed;
   bottom:120px;
@@ -12,7 +12,7 @@ div{
 
 div.a{
   display:flex;
-  padding:100px;
+  padding:200px;
   align-items:center;
   position:fixed;
   center:0;
@@ -29,7 +29,7 @@ button{
 }
 
 div.b{
-  padding:100px;
+  padding:200px;
   display:flex;
   align-items:center;
   position:fixed;
