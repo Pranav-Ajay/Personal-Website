@@ -73,6 +73,7 @@ div.master {
 
 
 div.g {
+  background-color:white;
   flex: 1;                   
   border: 2px solid black;
   display:flex;
@@ -81,6 +82,7 @@ div.g {
 }
 
 div.h {
+  background-color:white;
   flex: 1;                  
   border: 2px solid black;
   display:flex;
@@ -89,6 +91,7 @@ div.h {
 }
 
 div.i {
+  background-color:white;
   flex: 1;                  
   border: 2px solid black;
   display:flex;
