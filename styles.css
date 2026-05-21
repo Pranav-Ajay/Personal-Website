@@ -47,19 +47,11 @@ div.b{
   position:fixed;
   top:0;}
 
-div.g{
-  top:O;
-  position:fixed;
-}
 
-div.h{
-   top:O;
-  position:fixed;  
-}
-
-div.i{
-   top:O;
-  position:fixed;
-}
+div.master{
+  display:flex;
+  width:300px;
+  flex-direction:column;}
+  
 
 
