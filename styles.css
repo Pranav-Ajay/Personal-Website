@@ -2,15 +2,8 @@ body {
   background-color: #ADD8E6;
 }
 
-div{
-  display:flex;
-  padding:200px;
-  align-items:center;
-  position:fixed;
-  bottom:120px;
-  gap:50px;}
 
-div.a{
+div{
   display:flex;
   padding:200px;
   align-items:center;
