@@ -137,9 +137,9 @@ div.g hi{
   magrin:0;}
 
 footer{
-  align-items:stretch;
+  width:100%;
   display:flex;
-  position:fixed;
+  position:absolute;
   bottom:0;
   flex-direction:row;
   background-color:white;}
