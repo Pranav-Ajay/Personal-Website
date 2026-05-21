@@ -135,6 +135,10 @@ div.g hi{
   magrin:0;}
 
 footer{
+  display:flex;
+  position:fixed;
+  bottom:0;
+  flex-direction:row;
   background-color:"white";}
   
 
