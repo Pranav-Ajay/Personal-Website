@@ -33,7 +33,7 @@ div.y{
   flex-direction:row;
   position:absolute;
   bottom:15%;
-  padding:10px;
+  padding:10px; 
 }
 
 button{
