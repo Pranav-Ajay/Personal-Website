@@ -63,7 +63,8 @@ div.master{
   display:flex;
   width:1000px;
   max-width:2000px;
-  flex-direction:row;}
+  flex-direction:row;
+  position:absolute;}
 
 div.f{
   position:absolute;
