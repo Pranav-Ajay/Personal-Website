@@ -73,8 +73,7 @@ div.master {
 
 
 div.g {
-  flex: 1;                
-  padding: 30px 25px;     
+  flex: 1;                   
   border: 2px solid black;
   display:flex;
   align-items:center;
@@ -82,8 +81,7 @@ div.g {
 }
 
 div.h {
-  flex: 1;               
-  padding: 30px 25px;     
+  flex: 1;                  
   border: 2px solid black;
   display:flex;
   align-items:center;
@@ -91,8 +89,7 @@ div.h {
 }
 
 div.i {
-  flex: 1;              
-  padding: 30px 25px;     
+  flex: 1;                  
   border: 2px solid black;
   display:flex;
   align-items:center;
