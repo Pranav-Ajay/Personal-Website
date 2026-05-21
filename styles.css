@@ -30,3 +30,9 @@ button{
 
 button:hover{
   background:"brown";}
+
+img{
+  fispley:flex;
+  align-items:center;
+  justify-content:center;}
+  
