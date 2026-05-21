@@ -47,27 +47,37 @@ div.b{
   position:fixed;
   top:0;}
 
-div.g{
-  padding:80px 80px;
-  border:2px solid black;
+div.master {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  
+
+  padding: 40px 20px; 
+  box-sizing: border-box;
+  min-height: 100vh;     
+  align-items: stretch;   
+
+
+div.g {
+  flex: 1;                /* Gives the box equal width to share the row */
+  padding: 30px 25px;     
+  border: 2px solid black;
 }
 
-div.h{
-   padding:80px 80px;
-  border:2px solid black;
+/* Card 2: Personal Interest */
+div.h {
+  flex: 1;                /* Gives the box equal width to share the row */
+  padding: 30px 25px;     /* FIXED: Balanced padding */
+  border: 2px solid black;
 }
 
-div.i{
- padding:80px 80px;
-  border:2px solid black;
+/* Card 3: Career Goals */
+div.i {
+  flex: 1;                /* Gives the box equal width to share the row */
+  padding: 30px 25px;     /* FIXED: Balanced padding */
+  border: 2px solid black;
 }
-
-div.master{
-  display:flex;
-  gap:15px;
-  padding:300px 300px;
- 
-  flex-direction:row;}
 
 div.f{
   padding:250px 250px;
