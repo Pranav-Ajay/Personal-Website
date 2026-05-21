@@ -28,8 +28,11 @@ button{
   font-weight: bold;  
 }
 
-button:hover{
-  background:"brown";}
+ button:hover {
+      background: #d4af37;
+      color: white;
+    }
+
 
 img{
   fispley:flex;
