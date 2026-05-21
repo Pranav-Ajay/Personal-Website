@@ -22,6 +22,12 @@ body.c{
    display:flex;
    flex-direction:column;
    gap:10px;}
+
+body.d{
+  background-color: #ADD8E6;
+   display:flex;
+   flex-direction:column;
+   gap:10px;}
   
 div{
   display:flex;
