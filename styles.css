@@ -1,5 +1,5 @@
 body {
-  background-color: #ADD8E6;
+  background-color: #bfdbfe;
   margin:0;
 
   display:flex;
@@ -12,7 +12,7 @@ body {
 }
 
 body.b {
-  background-color: #ADD8E6;
+  background-color: #bfdbfe;
   margin:0;
 
   display:flex;
