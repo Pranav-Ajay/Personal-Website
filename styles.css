@@ -5,7 +5,7 @@ body {
 
 div{
   display:flex;
-  padding:200px;
+  padding:300px;
   align-items:center;
   position:fixed;
   bottom:0;
