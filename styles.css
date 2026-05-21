@@ -157,7 +157,14 @@ p{
   line-height:1.7;
   max-width:400px;
 }
-  
+
+table{
+  transition:0.3s ease;
+}
+
+table:hover{
+  transform:scale(1.01);
+}
 
   
 
