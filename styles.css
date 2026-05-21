@@ -48,21 +48,21 @@ div.b{
   top:0;}
 
 div.g{
-  width:325px;
+  width:600px;
 }
 
 div.h{
-  width:325px;
+  width:600px;
 }
 
 div.i{
-  width:325px;
+  width:600px;
 }
 
 div.master{
   display:flex;
-  width:1000px;
-  max-width:2000px;
+  width:2000px;
+  max-width:3000px;
   flex-direction:row;}
 
 div.f{
