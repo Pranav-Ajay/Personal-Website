@@ -117,6 +117,7 @@ div.f{
   display:flex;
   flex-direction:column;
   font-family:Arial;
+  gap:20px;
 }
 
 h1{
@@ -125,6 +126,10 @@ h1{
   display:flex;
   align-items:center;
   justify-content:center;}
+
+caption{
+  font:Arial;
+  font-size:30px;}
 
 div.g hi{
   magrin:0;}
