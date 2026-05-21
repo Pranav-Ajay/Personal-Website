@@ -61,6 +61,7 @@ div.i{
 
 div.master{
   display:flex;
+  gap:15px;
   width:2000px;
   max-width:3000px;
   flex-direction:row;}
