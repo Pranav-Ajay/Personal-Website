@@ -140,9 +140,11 @@ caption{
   font:Arial;
   font-size:30px;}
 
-div.g hi{
+div.g h1{
+  position:fixed;
   top:0;
-  magrin:0;}
+  margin:0;
+}
 
 footer{
   width:100%;
