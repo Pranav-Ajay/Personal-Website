@@ -24,6 +24,7 @@ body.b {
 }
   
 div{
+  padding:100px;
   display:flex;
   gap:50px;
 }
