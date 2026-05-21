@@ -18,13 +18,13 @@ body.b{
    gap:10px;}
 
 body.c{
-  background-color: #ADD8E6;
+   background-color: #ADD8E6;
    display:flex;
    flex-direction:column;
    gap:10px;}
 
 body.d{
-  background-color: #ADD8E6;
+   background-color: #ADD8E6;
    display:flex;
    flex-direction:column;
    gap:10px;}
@@ -44,6 +44,7 @@ button{
 button:hover {
   background:#d4af37;
   color:white;
+  transition:0.3px;
 }
 
 img{
