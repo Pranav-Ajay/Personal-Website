@@ -79,7 +79,7 @@ div.g {
   display:flex;
   align-items:center;
   justify-content:center;
-  font-family:"ariel"
+  font-family:Arial;
 }
 
 div.h {
@@ -89,7 +89,7 @@ div.h {
   display:flex;
   align-items:center;
   justify-content:center;
-  font-family:"ariel"
+  font-family:Arial;
 }
 
 div.i {
@@ -99,7 +99,7 @@ div.i {
   display:flex;
   align-items:center;
   justify-content:center;
-  font-family:"ariel"
+  font-family:Arial;
 }
 
 div.f{
@@ -109,7 +109,7 @@ div.f{
   left:0;
   display:flex;
   flex-direction:column;
-  font-family:"ariel"}
+  font-family:Arial}
 
 h1{
   position:fixed;
