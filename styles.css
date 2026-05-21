@@ -159,6 +159,7 @@ footer{
   background-color:white;}
 
 p{
+  font-family:Arial;
   line-height:1.7;
   max-width:400px;
 }
