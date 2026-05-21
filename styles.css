@@ -10,6 +10,18 @@ body {
   flex-direction:column;
   gap:30px;
 }
+
+body.b {
+  background-color: #ADD8E6;
+  margin:0;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  min-height:100vh;
+  gap:30px;
+}
   
 div{
   display:flex;
