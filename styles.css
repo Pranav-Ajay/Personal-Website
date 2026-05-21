@@ -141,8 +141,6 @@ div.f{
 }
 
 h1{
-  position:fixed;
-  top:40px;
   display:flex;
   align-items:center;
   justify-content:center;}
