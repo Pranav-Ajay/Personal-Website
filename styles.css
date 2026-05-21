@@ -149,6 +149,10 @@ footer{
   gap:30px;
   flex-direction:row;
   background-color:white;}
+
+p{
+  line-height:1.7;
+}
   
 
   
