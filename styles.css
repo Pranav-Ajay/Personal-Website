@@ -52,6 +52,12 @@ div.master{
   display:flex;
   width:300px;
   flex-direction:row;}
+
+div.f{
+  display:flex;
+  width:300px;
+  flex-direction:row;}
+
   
 
 
