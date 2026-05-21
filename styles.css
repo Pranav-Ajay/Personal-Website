@@ -25,6 +25,10 @@ button{
       color: white;
     }
 
+div.b{
+  displey:flex;
+  gap:20px;
+}
 
 img{
   position:fixed;
