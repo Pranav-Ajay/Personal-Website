@@ -66,6 +66,7 @@ div.b{
   display:flex;
   flex-direction:row;
   position:fixed;
+  left:0;
   gap:40px;
   top:10%;
   left:20%;}
