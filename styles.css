@@ -13,21 +13,13 @@ body {
 
 body.b{
    background-color: #ADD8E6;
-   display:flex;
-   flex-direction:column;
-   gap:10px;}
+   display:flex;}
 
 body.c{
-   background-color: #ADD8E6;
-   display:flex;
-   flex-direction:column;
-   gap:10px;}
+   background-color: #ADD8E6;}
 
 body.d{
-   background-color: #ADD8E6;
-   display:flex;
-   flex-direction:column;
-   gap:10px;}
+   background-color: #ADD8E6;}
   
 div{
   display:flex;
