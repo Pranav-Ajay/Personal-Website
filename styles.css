@@ -64,6 +64,7 @@ div.b{
   heigth:100%;
   background-color:white;
   display:flex;
+  padding:30px;
   flex-direction:row;
   position:fixed;
   left:0px;
