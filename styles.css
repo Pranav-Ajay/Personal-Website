@@ -32,7 +32,7 @@ div.y{
   display:flex;
   flex-direction:row;
   position:absolute;
-  bottom:85%;
+  bottom:15%;
   padding:10px;
 }
 
