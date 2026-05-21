@@ -147,6 +147,7 @@ footer{
   display:flex;
   position:absolute;
   bottom:0;
+  gap:30px;
   flex-direction:row;
   background-color:white;}
   
