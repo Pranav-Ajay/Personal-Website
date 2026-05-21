@@ -94,7 +94,7 @@ div.master {
 
 
 div.g {
-  transform:scales(1.02);
+  transition:0.3s ease;
   background-color:#f8fafc;
   flex: 1;                   
   border: 2px solid black;
@@ -107,7 +107,7 @@ div.g {
 }
 
 div.h {
-  transform:scales(1.02);
+  transition:0.3s ease;
   background-color:#f8fafc;
   flex: 1;                  
   border: 2px solid black;
@@ -120,7 +120,7 @@ div.h {
 }
 
 div.i {
-  transform:scales(1.02);
+  transition:0.3s ease;
   background-color:#f8fafc;
   flex: 1;                  
   border: 2px solid black;
