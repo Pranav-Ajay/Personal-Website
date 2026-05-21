@@ -9,6 +9,7 @@ body {
   min-height:100vh;
   flex-direction:column;
   gap:30px;
+  font-family:'Poppins',sans-serif;
 }
 
 body.b {
@@ -19,6 +20,7 @@ body.b {
   justify-content:center;
   align-items:center;
   flex-direction:column;
+  font-family:'Poppins',sans-serif;
 
   min-height:100vh;
 }
@@ -162,9 +164,8 @@ footer{
   background-color:white;}
 
 p{
-  font-family:Arial;
   line-height:1.7;
-  max-width:400px;
+  max-width:500px;
 }
 
 table{
