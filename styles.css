@@ -175,6 +175,11 @@ table:hover{
   transform:scale(1.01);
 }
 
+div.j{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;}
+
   
 
 
