@@ -60,6 +60,7 @@ th{
 
 div.b{
   width:100%;
+  heigth:100%;
   background-color:white;
   display:flex;
   flex-direction:row;
