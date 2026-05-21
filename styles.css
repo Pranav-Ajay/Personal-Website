@@ -2,40 +2,42 @@ body {
   background-color: #ADD8E6;
 }
 
-
 div{
   display:flex;
   padding:300px;
   align-items:center;
   position:fixed;
   bottom:0;
-  gap:50px;}
+  gap:50px;
+}
 
 button{
   display:flex;
   padding:40px 50px;
   justify-content:center;
-  box-shadow:2px 2px 2px 2px;
-  font:"Ariel";
-  font-weight: bold;  
+  box-shadow:2px 2px 2px 2px black;
+  font-family: Arial;
+  font-weight:bold;
 }
 
- button:hover {
-      background: #d4af37;
-      color: white;
-    }
+button:hover {
+  background:#d4af37;
+  color:white;
+}
 
 div.b{
-  displey:flex;
+  display:flex;
   gap:20px;
 }
 
 img{
   position:fixed;
   top:0;
-  left:70%
-  max-width:750px;}
+  left:70%;
+  max-width:750px;
+}
 
 table{
-  border-outline:2px solid black;
-  font:"ariel";}
+  border:2px solid black;
+  font-family:Arial;
+}
