@@ -31,7 +31,7 @@ div{
 div.y{
   display:flex;
   flex-direction:row;
-  position:relative;
+  position:absolute;
   bottom:85%;
   padding:10px;
 }
