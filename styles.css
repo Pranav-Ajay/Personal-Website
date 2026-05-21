@@ -70,6 +70,7 @@ div.master{
   flex-direction:row;}
 
 div.f{
+  position:block;
   left:0;
   display:flex;
   flex-direction:column;}
