@@ -60,9 +60,9 @@ th{
 
 div.b{
   display:flex;
-  flex-direction:column;
+  flex-direction:row;
   position:fixed;
-  top:0;}
+  left:20%;}
 
 div.master {
   display: flex;
