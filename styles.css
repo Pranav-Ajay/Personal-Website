@@ -25,7 +25,6 @@ body.b {
   
 div{
   display:flex;
-  justify-content:space-between;
   gap:50px;
 }
 
@@ -76,10 +75,8 @@ div.b{
   display:flex;
   padding:30px;
   flex-direction:row;
-  position:fixed;
-  left:0px;
-  gap:40px;
-  top:0px;}
+  justify-content:flex-start;
+  gap:40px;}
 
 div.master {
   display: flex;
