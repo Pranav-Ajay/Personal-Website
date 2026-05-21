@@ -131,7 +131,7 @@ div.f{
 
 h1{
   position:fixed;
-  top:20px;
+  top:40px;
   display:flex;
   align-items:center;
   justify-content:center;}
@@ -140,12 +140,6 @@ caption{
   font:Arial;
   font-size:30px;}
 
-div.g h1{
-  margin:0;
-  display:flex;
-  align-items:center;
-  justify-items:center;
-}
 
 footer{
   width:100%;
