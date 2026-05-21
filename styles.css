@@ -62,7 +62,7 @@ th{
 div.b{
   width:100%;
   heigth:100%;
-  background-color:white;
+  background-color:#f8fafc;
   display:flex;
   padding:30px;
   flex-direction:row;
@@ -86,7 +86,7 @@ div.master {
 
 
 div.g {
-  background-color:white;
+  background-color:#f8fafc;
   flex: 1;                   
   border: 2px solid black;
   display:flex;
@@ -97,7 +97,7 @@ div.g {
 }
 
 div.h {
-  background-color:white;
+  background-color:#f8fafc;
   flex: 1;                  
   border: 2px solid black;
   display:flex;
@@ -108,7 +108,7 @@ div.h {
 }
 
 div.i {
-  background-color:white;
+  background-color:#f8fafc;
   flex: 1;                  
   border: 2px solid black;
   display:flex;
