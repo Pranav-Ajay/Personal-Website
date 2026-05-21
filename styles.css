@@ -50,7 +50,8 @@ div.b{
 
 div.master{
   display:flex;
-  max-width:800px;
+  width:1000px;
+  max-width:2000px;
   flex-direction:row;}
 
 div.f{
