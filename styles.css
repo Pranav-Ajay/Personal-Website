@@ -48,25 +48,25 @@ div.b{
   top:0;}
 
 div.g{
-  width:500px;
+  padding:200px 200px;
   border:2px solid black;
 }
 
 div.h{
-  width:500px;
+  padding:200px 200px;
   border:2px solid black;
 }
 
 div.i{
-  width:500px;
+  padding:200px 200px;
   border:2px solid black;
 }
 
 div.master{
   display:flex;
   gap:15px;
-  width:1600px;
-  max-width:3000px;
+  padding:1000px 1000px;
+ 
   flex-direction:row;}
 
 div.f{
