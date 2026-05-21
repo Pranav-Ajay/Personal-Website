@@ -75,7 +75,9 @@ div.b{
   display:flex;
   padding:30px;
   flex-direction:row;
-  justify-content:flex-start;
+  position:fixed;
+  top:0;
+  left:0;
   gap:40px;}
 
 div.master {
