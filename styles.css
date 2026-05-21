@@ -47,6 +47,17 @@ div.b{
   position:fixed;
   top:0;}
 
+div.g{
+  width:325px;
+}
+
+div.h{
+  width:325px;
+}
+
+div.i{
+  width:325px;
+}
 
 div.master{
   display:flex;
