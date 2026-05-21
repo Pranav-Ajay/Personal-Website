@@ -59,6 +59,7 @@ th{
   background-color:white;}
 
 div.b{
+  background-color:white;
   display:flex;
   flex-direction:row;
   position:fixed;
