@@ -54,6 +54,8 @@ div.master{
   flex-direction:row;}
 
 div.f{
+  position:fixed;
+  left:0;
   display:flex;
   width:300px;
   flex-direction:column;}
