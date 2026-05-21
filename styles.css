@@ -104,6 +104,8 @@ div.f{
   flex-direction:column;}
 
 h1{
+  position:fixed;
+  top:0;
   display:flex;
   align-items:center;
   justify-content:center;}
