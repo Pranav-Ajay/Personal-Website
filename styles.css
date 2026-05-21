@@ -68,8 +68,7 @@ div.b{
   position:fixed;
   left:0px;
   gap:40px;
-  top:10%;
-  left:20%;}
+  top:10%;}
 
 div.master {
   display: flex;
