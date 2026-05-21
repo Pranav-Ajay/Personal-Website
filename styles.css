@@ -29,11 +29,9 @@ button{
 }
 
 div.b{
-  padding:200px;
+  padding:50px;
   display:flex;
   align-items:center;
-  position:fixed;
-  top:0%;
 }
 
 
