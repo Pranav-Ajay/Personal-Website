@@ -193,17 +193,23 @@ div.j{
     height:auto;
   }
 
-  table{
-    width:100%;
-  }
 
-  td,th{
-    display:block;
-    width:100%;
-    box-sizing:border-box;
-    text-align:left;
-    padding:10px;
-  }
+  table{
+   width:100%;
+   border-collapse:collapse;
+   overflow-x:auto;
+   display:block;
+}
+
+tr{
+   display:table-row;
+}
+
+td,th{
+   padding:10px;
+   font-size:14px;
+   word-break:break-word;
+}
 
   a{
     word-break:break-word;
