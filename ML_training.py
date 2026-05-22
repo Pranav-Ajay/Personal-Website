@@ -158,6 +158,9 @@ def Klearners(xtrain,xtest,ytrain,ytest):
     cr6=classification_report(ytest,y_predict6)
     print(cr6)
 
+while True:
+
+    algorithm=input("enter 1 for svm or 2 for random forest or 3 for naiveBayas or 4 for decisiontree or 5 for logistic regression:")
 
     if algorithm=="1":
         
@@ -190,8 +193,4 @@ def Klearners(xtrain,xtest,ytrain,ytest):
     else:
 
         print("Invalid option")
-
-while True:
-
-    algorithm=input("enter 1 for svm or 2 for random forest or 3 for naiveBayas or 4 for decisiontree or 5 for logistic regression:")
 
