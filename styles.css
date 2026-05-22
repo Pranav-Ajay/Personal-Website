@@ -185,40 +185,52 @@ div.j{
 
   body{
     overflow-x:hidden;
-    padding:10px;
-    gap:15px;
+    padding:15px;
+    gap:20px;
+    align-items:flex-start;
   }
 
-  /* MAIN SECTION STACKS */
+  /* MAIN LAYOUT */
   div.master{
     flex-direction:column;
-    align-items:center;
-    padding-top:120px;
     width:100%;
+    padding-top:140px;
+    align-items:center;
   }
 
   /* NAVBAR */
   div.b{
-    flex-direction:column;
-    align-items:center;
-    gap:10px;
-    padding:10px;
-    height:auto;
+    width:100%;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    padding:15px;
+    box-sizing:border-box;
   }
 
-  /* BUTTON AREA */
-  div.y{
-    flex-direction:column;
-    align-items:center;
-    position:static;
+  /* LEFT CONTENT */
+  div.f{
     width:100%;
+    max-width:100%;
+    text-align:center;
+    align-items:center;
+  }
+
+  /* BUTTON SECTION */
+  div.y{
+    position:static;
+    flex-direction:column;
+    width:100%;
+    align-items:center;
     gap:15px;
+    margin-top:20px;
   }
 
   button{
     width:90%;
-    max-width:250px;
-    padding:20px;
+    max-width:280px;
+    padding:18px;
+    font-size:16px;
   }
 
   /* CARDS */
@@ -226,25 +238,16 @@ div.j{
   div.h,
   div.i{
     width:100%;
-    min-height:250px;
+    min-height:auto;
+    padding:20px;
+    box-sizing:border-box;
   }
 
-  /* IMAGE */
+  /* IMAGES */
   img{
     width:100%;
     max-width:100%;
     height:auto;
-  }
-
-  /* TEXT */
-  h1{
-    font-size:28px;
-    text-align:center;
-  }
-
-  p{
-    text-align:center;
-    font-size:15px;
   }
 
   /* TABLE */
@@ -254,20 +257,29 @@ div.j{
     width:100%;
   }
 
-  /* FOOTER */
-footer{
-  flex-direction:row;
-  align-items:center;
-  text-align:center;
-}
-
-  /* LEFT SECTION */
-  div.f{
-    width:100%;
-    align-items:center;
+  /* TEXT */
+  h1{
+    font-size:28px;
     text-align:center;
   }
 
-}
+  p{
+    width:100%;
+    max-width:100%;
+    text-align:center;
+    font-size:15px;
+  }
 
-  
+  /* FOOTER */
+  footer{
+    position:static;
+    width:100%;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:15px;
+    box-sizing:border-box;
+    margin-top:30px;
+  }
+
+}
