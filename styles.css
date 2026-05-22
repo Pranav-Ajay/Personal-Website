@@ -109,6 +109,7 @@ div.g {
   font-size:12px;
   border:none;
   transition:0.3s ease;
+  border-radius:30px;
 }
 
 div.h {
@@ -123,6 +124,7 @@ div.h {
   font-size:12px;
   border:none;
   transition:0.3s ease;
+  border-radius:30px;
 }
 
 div.i {
@@ -137,6 +139,7 @@ div.i {
   font-size:12px;
   border:none;
   transition:0.3s ease;
+  border-radius:30px;
 }
 
 div.g:hover{
