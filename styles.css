@@ -183,13 +183,14 @@ div.j{
 
 @media screen and (max-width:768px){
 
-  body,
-  body.b{
-    overflow-x:hidden;
-    padding:15px;
-    gap:20px;
-    align-items:flex-start;
-  }
+ body,
+body.b{
+  overflow-x:hidden;
+  padding:15px;
+  gap:20px;
+  align-items:flex-start;
+  padding-top:140px;
+}
 
   /* NAVBAR */
   div.b{
