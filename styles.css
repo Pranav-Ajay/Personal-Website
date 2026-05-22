@@ -152,11 +152,9 @@ div.i:hover{
   transform:scale(1.01);}
 
   
-
 div.f{
-  widtth:500px;
+  width:500px;
   padding:0;
-  position:block;
   left:0;
   display:flex;
   flex-direction:column;
@@ -176,11 +174,12 @@ caption{
 footer{
   width:100%;
   display:flex;
-  position:absolute;
-  bottom:0;
   gap:30px;
   flex-direction:row;
-  background-color:white;}
+  background-color:white;
+  padding:20px;
+  margin-top:40px;
+}
 
 p{
   line-height:1.7;
