@@ -263,7 +263,7 @@ div.j{
 
   /* FOOTER */
 footer{
-  flex-direction:column;
+  flex-direction:row;
   align-items:center;
   text-align:center;
 }
