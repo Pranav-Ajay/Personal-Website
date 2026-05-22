@@ -263,4 +263,9 @@ div.j{
     flex-wrap:wrap;
   }
 
+  .master{
+   display:flex;
+   flex-direction:column;
+}
+
 }
