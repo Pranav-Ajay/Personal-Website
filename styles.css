@@ -183,144 +183,84 @@ div.j{
 
 @media screen and (max-width:768px){
 
- body,
-body.b{
-  overflow-x:hidden;
-  padding:15px;
-  gap:20px;
-  align-items:flex-start;
-  padding-top:140px;
-}
-
-  /* NAVBAR */
-  div.b{
-    width:100%;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:15px;
-    padding:15px;
-    box-sizing:border-box;
+  body{
+    padding:10px;
+    overflow-x:hidden;
   }
 
-  /* BUTTONS */
-  .buttons{
-    flex-direction:column;
-    align-items:center;
-    width:100%;
-    gap:15px;
-    margin-top:320px;
-  }
-
-  button{
-    width:90%;
-    max-width:280px;
-    padding:18px;
-    font-size:16px;
-  }
-
-  /* HERO SECTION */
-  div.y{
-    position:static;
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-    width:100%;
-    gap:15px;
-    margin-top:20px;
-  }
-
-  /* MASTER LAYOUT */
-  div.master{
-    flex-direction:column;
-    width:100%;
-    padding:15px;
-    box-sizing:border-box;
-    align-items:center;
-  }
-
-  /* CARDS */
-  div.g,
-  div.h,
-  div.i{
-    width:100%;
-    padding:20px;
-    box-sizing:border-box;
-    min-height:auto;
-  }
-
-  /* LEFT SECTION */
-  div.f{
-    width:100%;
-    max-width:100%;
-    text-align:center;
-    align-items:center;
-  }
-
-  /* EDUCATION PAGE */
-  .ce{
-    width:100%;
-    padding:15px;
-    box-sizing:border-box;
-    align-items:center;
-  }
-
-  /* PROJECTS PAGE */
-  div.j{
-    width:100%;
-    align-items:center;
-  }
-
-  /* IMAGES */
   img{
-    width:100%;
     max-width:100%;
     height:auto;
   }
 
-  /* TABLES */
-  table,
-  table.b{
+  table{
+    width:100%;
+  }
+
+  td,th{
     display:block;
-    overflow-x:auto;
     width:100%;
-  }
-
-  th,
-  td{
-    padding:12px;
-    font-size:14px;
-  }
-
-  /* TEXT */
-  h1{
-    font-size:24px;
-    text-align:center;
-  }
-
-  p{
-    width:100%;
-    max-width:100%;
-    text-align:center;
-    font-size:15px;
-    line-height:1.8;
-  }
-
-  /* FOOTER */
-  footer{
-    position:static;
-    width:100%;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    gap:15px;
-    padding:15px;
     box-sizing:border-box;
-    margin-top:30px;
+    text-align:left;
+    padding:10px;
   }
 
-  footer a{
+  a{
     word-break:break-word;
+    font-size:16px;
+  }
+
+  h1,h2,h3{
+    text-align:center;
+  }
+
+  div{
+    max-width:100%;
+    box-sizing:border-box;
+  }
+
+  /* Main large image */
+  .a img,
+  .mainimg{
+    width:100%;
+    height:auto;
+    border-radius:20px;
+    object-fit:cover;
+  }
+
+  /* Small profile image */
+  .smallimg,
+  .b img,
+  .c img{
+    width:80px;
+    height:80px;
+    object-fit:cover;
+    border-radius:50%;
+  }
+
+  /* Remove absolute positioning on mobile */
+  *{
+    position:static !important;
+    left:auto !important;
+    right:auto !important;
+    top:auto !important;
+    bottom:auto !important;
+  }
+
+  /* Use flexible layout */
+  body,
+  div,
+  section{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .profile{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:10px;
+    flex-wrap:wrap;
   }
 
 }
