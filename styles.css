@@ -87,6 +87,7 @@ div.master {
 
 
 div.g {
+  padding:10px 10px;
   transition:0.3s ease;
   background-color:#f8fafc;
   flex: 1;                   
@@ -102,6 +103,7 @@ div.g {
 }
 
 div.h {
+  padding:10px 10px;
   transition:0.3s ease;
   background-color:#f8fafc;
   flex: 1;                  
@@ -117,6 +119,7 @@ div.h {
 }
 
 div.i {
+  padding:10px 10px;
   transition:0.3s ease;
   background-color:#f8fafc;
   flex: 1;                  
